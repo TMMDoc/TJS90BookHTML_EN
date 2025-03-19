@@ -1,0 +1,1150 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="../../../res/bento.css">
+  <link rel="stylesheet" href="../../../res/site.css">
+  <link rel="stylesheet" href="../../../res/tree.css">
+  <link rel="stylesheet" href="../../../res/sibling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Crowning</title>
+</head>
+<body id="site-body" onload="sLoaded()">
+    <header id="site-header">
+        <div id="header-logo"><img src="../../../img/jfy.jpg" width="103" height="34" /></div>
+        <div><p>TJS90 Online Help</p></div>
+    </header>
+    <div id="site-main">
+        <nav id="site-nav">
+            <div class="treesite">
+  <ul>
+    <li><button class="tree blank"></button><a href="../../../index.html">Welcome to TJS90 </a></li>
+    <li><button class="tree blank"></button><a href="../../../installation.html">Installing the Software</a></li>
+    <li><button class="tree blank"></button><a href="../../../home/index.html">Home</a></li>
+    <li><button class="tree blank"></button><a href="../../../create/index.html">Create</a></li>
+    <li><button class="tree blank"></button><a href="../../../edit/index.html">Edit</a></li>
+    <li><button class="tree blank"></button><a href="../../../run/index.html">Run</a></li>
+    <li>
+      <button class="tree open"></button>
+      <a href="../../index.html">Settings</a>
+      <ul>
+        <li><button class="tree blank"></button><a href="../../jogaxes.html">Jog Axes</a></li>
+        <li><button class="tree blank"></button><a href="../../manualprogram.html">Manual Program</a></li>
+        <li><button class="tree blank"></button><a href="../../toolinventory.html">Tool Inventory</a></li>
+        <li>
+          <button class="tree open"></button>
+          <a href="../index.html">Other Settings</a>
+          <ul>
+            <li><button class="tree blank"></button><a href="../machinesettings.html">Machine Settings</a></li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../generalparameters/index.html">General Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../generalparameters/machine.html">Machine</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/tools.html">Tools</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/safety.html">Safety</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/canports.html">CAN ports</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/plcoptions.html">PLC Options</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalinputconfig.html">Digital input configuration</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/maintenance.html">Maintenance</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/log.html">Log</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/diagnostics.html">Diagnostics</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/display.html">Display</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalprotractor.html">Digital Protractor</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/barcode.html">Barcode</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree open"></button>
+              <a href="index.html">Y-Axis Parameters</a>
+              <ul>
+                <li><button class="tree blank"></button><a href="general.html">General</a></li>
+                <li><button class="tree blank"></button><a href="mute.html">Mute</a></li>
+                <li><button class="tree blank"></button><a href="feedback.html">Feedback</a></li>
+                <li><button class="tree blank"></button><a href="pressurevalve.html">Pressure Valve</a></li>
+                <li><button class="tree blank"></button><a href="pressuresensor.html">Pressure Sensor</a></li>
+                <li><button class="tree blank"></button><a href="idle.html">Idle</a></li>
+                <li><button class="tree blank"></button><a href="fastclosing.html">Fast Closing</a></li>
+                <li><button class="tree blank"></button><a href="fastclosingadv.html">Fast Closing Advanced</a></li>
+                <li><button class="tree blank"></button><a href="pressing.html">Pressing</a></li>
+                <li><button class="tree blank"></button><a href="pressureadvancedpos.html">Pressure Advanced</a></li>
+                <li><button class="tree blank"></button><a href="decompression.html">Decompression</a></li>
+                <li><button class="tree blank"></button><a href="opening.html">Opening</a></li>
+                <li><button class="tree blank"></button><a href="yaxiscold.html">Y-Axis Cold Condition Parameters</a></li>
+                <li><button class="tree blank"></button><a class="active" href="crowning.html">Crowning</a></li>
+                <li><button class="tree blank"></button><a href="electricpressbrake.html">Electric Press Brake</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../axisparameters/index.html">Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../axisparameters/xaxis.html">X Axis</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/handwheel.html">Hand Wheel</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/fl1.html">FL1</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../defaults/index.html">Defaults</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../defaults/bendcycle.html">Bend Cycle</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/bendprogram.html">Bend program</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/importexport.html">Import/Export</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><button class="tree blank"></button><a href="../../../file selection panel/index.html">File Selection Panel</a></li>
+    <li><button class="tree blank"></button><a href="../../../part settings/index.html">Part Settings</a></li>
+    <li><button class="tree blank"></button><a href="../../../link programs/index.html">Link Programs</a></li>
+    <li><button class="tree blank"></button><a href="../../../table programming/index.html">Table Programming</a></li>
+  </ul>
+</div>
+
+        </nav>
+        <div id="site-nav-right">
+            <nav id="site-crumb">
+  <div>
+    <button>
+      <img src="../../../res/home.png">
+    </button>
+  </div>
+  <div>
+    <a href="../../index.html">Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="../index.html">Other Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="index.html">Y-Axis Parameters</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="crowning.html">Crowning</a>
+  </div>
+</nav>
+
+            <div id="site-crumb-below">
+                <div id="site-toc-left">
+                    <article id="article">
+                        <h1>Crowning</h1>
+<div class="sect1">
+<h2 id="_configuration">Configuration</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/configuration.png" alt="Configuration" width="700">
+</div>
+</div>
+<div class="sect2">
+<h3 id="cm">Crowning mode</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">None / Hydraulic / Motorized</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Hydraulic</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the type of crowning used in the machine.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description">Description</h4>
+<div class="paragraph">
+<p>The control supports two types of crowning called <strong>Hydraulic</strong> and <strong>Motorized</strong> types. This parameter selects the type of the crowning used.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="pcm">Pressure control method</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">VDrive 106 / External</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">VDrive 106</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_2">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the hydraulic pressure control method used in the machine.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_2">Description</h4>
+<div class="paragraph">
+<p>This parameter is used to select whether VDrive 106 or an external amplifier is used to control crowning pressure.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_valve_current">Valve current</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-3000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">800</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_3">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum current of Crowning Valve.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_3">Description</h4>
+<div class="paragraph">
+<p>The control can support a maximum of 3 amps valve current and this parameter defines the actual current of the valve used in the machine. In this way, it is possible to use the maximum output voltage of the controller for the better resolution of crowning distance.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This parameter is only valid, if the <a href="#cm">Crowning mode</a> is <strong>Hydraulic</strong> and <a href="#pcm">Pressure control method</a> is <strong>VDrive 106</strong>.
+If <a href="#pcm">Pressure control method</a> is set to <strong>External</strong>, Valve current is not available.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_closed_control">Closed control</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes / No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_4">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_4">Description</h4>
+<div class="paragraph">
+<p>This parameter is applicable only when <a href="#cm">Crowning mode</a> is set to <strong>Hydraulic</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general">General</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/crowninggeneral.png" alt="CrowningGeneral">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_minimum">Minimum</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">µm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_5">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimal value of crowning distance.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_5">Description</h4>
+<div class="paragraph">
+<p>If the computed crowning value is less than this parameter, then the crowning distance is taken from this parameter. Also, this minimal value is used for the interpolation of crowning distance, if the calibration mode is selected as linear.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_maximum">Maximum</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-3000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">520</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">µm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_6">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum value of crowning distance.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_6">Description</h4>
+<div class="paragraph">
+<p>If the computed crowning value is greater than this parameter, then the crowning distance is taken from this parameter. Also, this maximum value is used for the interpolation of crowning distance, if the calibration mode is selected as linear.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calibration_mode">Calibration mode</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Linear / Table</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Table</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_7">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the type of calibration activated in the machine.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_7">Description</h4>
+<div class="paragraph">
+<p>The control supports two types of calibration method, 1. Linear, 2. Table. When linear is selected, with the help of minimum and maximum value the other values are interpolated internally. When table is selected, the control voltage versus crowning distance are entered in a table.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calibration">Calibration</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ON/OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_8">Function</h4>
+<div class="paragraph">
+<p>This parameter enables/disables the calibration of crowning distance.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_8">Description</h4>
+<div class="paragraph">
+<p>This parameter must be ON, if required to calibrate the crowning distance. The calibration of the crowning is done by defining the relation between the controller voltage command (Range: 0 to 10V) and the crowning distance (µm) which is programmed in a table. For calibration to be ON, valve calibration must be OFF in pressure valve tab in Y-axis parameter.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/crowningdisvolt.png" alt="CrowningDisVolt" width="400">
+</div>
+</div>
+<div class="paragraph">
+<p>The relation between the crowning distance and voltage can be entered in a table by pressing the calibrate softkey available in the page.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Crowning calibration <strong>ON</strong> option will be available only when pressure <strong>Calibration</strong> is set to <strong>OFF</strong> in Y-Axis Parameters &#8594; Pressure valve &#8594; General.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calibration_procedure">Calibration procedure</h3>
+<div class="imageblock">
+<div class="content">
+<img src="img/crowncalibration.png" alt="CrownCalibration">
+</div>
+</div>
+<div class="paragraph">
+<p>Set the calibration parameter to ON and save it.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Access level must be service.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Go to the same page, you can find the softkey "Calibrate".</p>
+</li>
+<li>
+<p>Press the calibrate button, a new page called "Crown calibration" will appear on the screen.</p>
+</li>
+<li>
+<p>Default voltage calibration step is 1.0 V and total number of points is 11. The calibration step, no. of points can be changed using the soft key "Delete Entry", "Add Entry".</p>
+</li>
+<li>
+<p>The display "Voltage" shows the active voltage command and the corresponding crowning distance (measured by dial gauge or other means) to be entered in the box "Distance in µm".</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+When the Pump servo control is used, and crowning type is hydraulic during calibration the speed of the pump needs to be maintained constant and it depends on the type of the machine and the pump. So, servo speed is displayed in the crowning calibration page.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The controller accepts the active voltage command only after pressing the foot pedal open switch, to ensure the safety.</p>
+</li>
+<li>
+<p>After entering the crowning distance, press the soft key "Update Entry", it will update the table with respective display values of voltage and distance.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_minimum_voltage">Minimum voltage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">V</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_9">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimum threshold voltage of crowning.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_9">Description</h4>
+<div class="paragraph">
+<p>This parameter is valid only if the crowning mode is selected as "Linear". This is the minimum threshold voltage below which the change in voltage doesn&#8217;t affect the crowning distance. This voltage is very important to calculate the interpolation voltage for the computed crowning distance. For instance, in hydraulic crowning, below 2 V there is no change in crowning distance and hence the minimum threshold voltage is 2V.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_maximum_voltage">Maximum voltage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">V</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_10">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum voltage of crowning.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_10">Description</h4>
+<div class="paragraph">
+<p>This parameter is valid only if the crowning mode is selected as "Linear". This is the maximum voltage that the control can output, by this way the maximum crowning distance can be limited. This voltage is very important to calculate the interpolation voltage for the computed crowning distance.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hysteresis">Hysteresis</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">µm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_11">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the switch-off point for the programmed voltage.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_11">Description</h4>
+<div class="paragraph">
+<p>This parameter is valid only if the crowning mode is selected as “Motorized”. Because of the inertia of the crowning device, a hysteresis might be necessary to compare the command &amp; actual crowning voltage and stop the crowning device at the correct position.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gain">Gain</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.001 to 1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.66667</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_12">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the gain factor for the computation of Crowning values.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_12">Description</h4>
+<div class="paragraph">
+<p>The gain factor can be tuned to get the better value for crowning .Thereby the OEM&#8217;s has the control over the crowning deflection depending on the type of crowning used in the machines.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_offset">Offset</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-5 to 5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-0.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_13">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the effect of crowning in the lower bed; accordingly, the Y1 &amp; Y2 axis positions are computed.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_13">Description</h4>
+<div class="paragraph">
+<p>This offset defines the effect of crowning in the lower bed with respect to the centre of the machine. If the crowning is offset by this parameter distance, then accordingly the Y1 &amp; Y2 axis positions are computed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_span">Span</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-9999 to 9999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2334.5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_14">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the length of the crowning effect.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_14">Description</h4>
+<div class="paragraph">
+<p>Depends on the type of crowning, the span of crowning effect may be different. With this parameter, the crowning effect length is used to compute the Y1 &amp; Y2 axis positions.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_centre_of_span">Centre of span</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-9999 to 9999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1531</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_15">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the centre of crowning effect, where it will be maximum.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_15">Description</h4>
+<div class="paragraph">
+<p>NA</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_advanced">Advanced</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="img/crowningadvanced.png" alt="CrowningAdvanced"></span></p>
+</div>
+<div class="paragraph">
+<p>This parameter is available only when <a href="#cm">Crowning mode</a> is set to <strong>Hydraulic</strong>.</p>
+</div>
+<div class="sect2">
+<h3 id="_preset_voltage">Preset voltage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">V</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_16">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_16">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_preset_duration">Preset duration</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Sec</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_17">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_17">Description</h4>
+
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_homing">Homing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="image"><img src="img/crowninghoming.png" alt="crowninghoming"></span></p>
+</div>
+<div class="sect2">
+<h3 id="_position">Position</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Sec</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_18">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_18">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_wait_time">Wait time</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_19">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_19">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reset_time">Reset time</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">300</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_20">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_20">Description</h4>
+
+</div>
+</div>
+</div>
+</div>
+
+                    </article>
+                </div>
+                <div id="site-toc-holder">
+                    <aside id="site-toc">
+  <h3>Contents</h3>
+  <ul>
+    <li level="1">
+      <a href="#_configuration">Configuration</a>
+    </li>
+    <li level="2">
+      <a href="#cm">Crowning mode</a>
+    </li>
+    <li level="2">
+      <a href="#pcm">Pressure control method</a>
+    </li>
+    <li level="2">
+      <a href="#_valve_current">Valve current</a>
+    </li>
+    <li level="2">
+      <a href="#_closed_control">Closed control</a>
+    </li>
+    <li level="1">
+      <a href="#_general">General</a>
+    </li>
+    <li level="2">
+      <a href="#_minimum">Minimum</a>
+    </li>
+    <li level="2">
+      <a href="#_maximum">Maximum</a>
+    </li>
+    <li level="2">
+      <a href="#_calibration_mode">Calibration mode</a>
+    </li>
+    <li level="2">
+      <a href="#_calibration">Calibration</a>
+    </li>
+    <li level="2">
+      <a href="#_calibration_procedure">Calibration procedure</a>
+    </li>
+    <li level="2">
+      <a href="#_minimum_voltage">Minimum voltage</a>
+    </li>
+    <li level="2">
+      <a href="#_maximum_voltage">Maximum voltage</a>
+    </li>
+    <li level="2">
+      <a href="#_hysteresis">Hysteresis</a>
+    </li>
+    <li level="2">
+      <a href="#_gain">Gain</a>
+    </li>
+    <li level="2">
+      <a href="#_offset">Offset</a>
+    </li>
+    <li level="2">
+      <a href="#_span">Span</a>
+    </li>
+    <li level="2">
+      <a href="#_centre_of_span">Centre of span</a>
+    </li>
+    <li level="1">
+      <a href="#_advanced">Advanced</a>
+    </li>
+    <li level="2">
+      <a href="#_preset_voltage">Preset voltage</a>
+    </li>
+    <li level="2">
+      <a href="#_preset_duration">Preset duration</a>
+    </li>
+    <li level="1">
+      <a href="#_homing">Homing</a>
+    </li>
+    <li level="2">
+      <a href="#_position">Position</a>
+    </li>
+    <li level="2">
+      <a href="#_wait_time">Wait time</a>
+    </li>
+    <li level="2">
+      <a href="#_reset_time">Reset time</a>
+    </li>
+  </ul>
+</aside>
+
+                </div>
+            </div>
+            <nav class="pagination">
+  <span class="prev"><a href="yaxiscold.html">Y-Axis Cold Condition Parameters</a></span>
+  <span class="next"><a href="electricpressbrake.html">Electric Press Brake</a></span>
+</nav>
+
+        </div>
+        <div id="searchbox">
+          <input id="searchinput" type="search" placeholder="Search... (Key: F)" autocomplete="false" size="30" />
+          <ul id="results"></ul>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="left">
+            <p>&nbsp;&nbsp;Copyright &copy; 2025 by Jiangsu Jinfangyuan CNC Machine Co.. All rights reserved.</p>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <p>Compiled by Bento</p>
+            <img src="../../../res/bento.png" />
+        </div>
+    </footer>
+    <script>
+        // The baseLevel is used to assign the search result pages.
+        var baseLevel = "../../../res".replace("res", "");
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../../res/index.js"></script>
+    <script src="../../../res/files.js"></script>
+    <script src="../../../res/site.js"></script>
+
+    
+</body>
+</html>

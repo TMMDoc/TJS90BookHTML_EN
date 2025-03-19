@@ -1,0 +1,1327 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="../../../res/bento.css">
+  <link rel="stylesheet" href="../../../res/site.css">
+  <link rel="stylesheet" href="../../../res/tree.css">
+  <link rel="stylesheet" href="../../../res/sibling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Tools</title>
+</head>
+<body id="site-body" onload="sLoaded()">
+    <header id="site-header">
+        <div id="header-logo"><img src="../../../img/jfy.jpg" width="103" height="34" /></div>
+        <div><p>TJS90 Online Help</p></div>
+    </header>
+    <div id="site-main">
+        <nav id="site-nav">
+            <div class="treesite">
+  <ul>
+    <li><button class="tree blank"></button><a href="../../../index.html">Welcome to TJS90 </a></li>
+    <li><button class="tree blank"></button><a href="../../../installation.html">Installing the Software</a></li>
+    <li><button class="tree blank"></button><a href="../../../home/index.html">Home</a></li>
+    <li><button class="tree blank"></button><a href="../../../create/index.html">Create</a></li>
+    <li><button class="tree blank"></button><a href="../../../edit/index.html">Edit</a></li>
+    <li><button class="tree blank"></button><a href="../../../run/index.html">Run</a></li>
+    <li>
+      <button class="tree open"></button>
+      <a href="../../index.html">Settings</a>
+      <ul>
+        <li><button class="tree blank"></button><a href="../../jogaxes.html">Jog Axes</a></li>
+        <li><button class="tree blank"></button><a href="../../manualprogram.html">Manual Program</a></li>
+        <li><button class="tree blank"></button><a href="../../toolinventory.html">Tool Inventory</a></li>
+        <li>
+          <button class="tree open"></button>
+          <a href="../index.html">Other Settings</a>
+          <ul>
+            <li><button class="tree blank"></button><a href="../machinesettings.html">Machine Settings</a></li>
+            <li>
+              <button class="tree open"></button>
+              <a href="index.html">General Parameters</a>
+              <ul>
+                <li><button class="tree blank"></button><a href="machine.html">Machine</a></li>
+                <li><button class="tree blank"></button><a class="active" href="tools.html">Tools</a></li>
+                <li><button class="tree blank"></button><a href="safety.html">Safety</a></li>
+                <li><button class="tree blank"></button><a href="canports.html">CAN ports</a></li>
+                <li><button class="tree blank"></button><a href="plcoptions.html">PLC Options</a></li>
+                <li><button class="tree blank"></button><a href="digitalinputconfig.html">Digital input configuration</a></li>
+                <li><button class="tree blank"></button><a href="maintenance.html">Maintenance</a></li>
+                <li><button class="tree blank"></button><a href="log.html">Log</a></li>
+                <li><button class="tree blank"></button><a href="diagnostics.html">Diagnostics</a></li>
+                <li><button class="tree blank"></button><a href="display.html">Display</a></li>
+                <li><button class="tree blank"></button><a href="digitalprotractor.html">Digital Protractor</a></li>
+                <li><button class="tree blank"></button><a href="barcode.html">Barcode</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../yaxisparameters/index.html">Y-Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../yaxisparameters/general.html">General</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/mute.html">Mute</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/feedback.html">Feedback</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressurevalve.html">Pressure Valve</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressuresensor.html">Pressure Sensor</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/idle.html">Idle</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosing.html">Fast Closing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosingadv.html">Fast Closing Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressing.html">Pressing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressureadvancedpos.html">Pressure Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/decompression.html">Decompression</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/opening.html">Opening</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/yaxiscold.html">Y-Axis Cold Condition Parameters</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/crowning.html">Crowning</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/electricpressbrake.html">Electric Press Brake</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../axisparameters/index.html">Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../axisparameters/xaxis.html">X Axis</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/handwheel.html">Hand Wheel</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/fl1.html">FL1</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../defaults/index.html">Defaults</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../defaults/bendcycle.html">Bend Cycle</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/bendprogram.html">Bend program</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/importexport.html">Import/Export</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><button class="tree blank"></button><a href="../../../file selection panel/index.html">File Selection Panel</a></li>
+    <li><button class="tree blank"></button><a href="../../../part settings/index.html">Part Settings</a></li>
+    <li><button class="tree blank"></button><a href="../../../link programs/index.html">Link Programs</a></li>
+    <li><button class="tree blank"></button><a href="../../../table programming/index.html">Table Programming</a></li>
+  </ul>
+</div>
+
+        </nav>
+        <div id="site-nav-right">
+            <nav id="site-crumb">
+  <div>
+    <button>
+      <img src="../../../res/home.png">
+    </button>
+  </div>
+  <div>
+    <a href="../../index.html">Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="../index.html">Other Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="index.html">General Parameters</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="tools.html">Tools</a>
+  </div>
+</nav>
+
+            <div id="site-crumb-below">
+                <div id="site-toc-left">
+                    <article id="article">
+                        <h1>Tools</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/toolsgeneral.png" alt="ToolsGeneral">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general">General</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_tool_reference">Tool reference</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-99999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">350</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the distance between the upper RAM and bottom table called as 'Open Height' of the machine.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description">Description</h4>
+<div class="paragraph">
+<p>Generally, the open height of the machine is referred to as the distance between the punch clamping surface and die sitting surface. This parameter is used for the calculation of bending depth, mute point and pinch point.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/toolheight.png" alt="ToolHeight" width="400">
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tool_reference_correction">Tool reference correction</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-99999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_2">Function</h4>
+<div class="paragraph">
+<p>NA</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_2">Description</h4>
+<div class="paragraph">
+<p>NA</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_punch_clamp_pressure">Punch clamp pressure</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">64</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Bar</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_3">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the pressure required to clamp the punch. It is used only when hydraulic clamping is provided for the punch. This parameter appears only when Punch clamp option is ON in PLC options under general parameters tab.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_3">Description</h4>
+<div class="paragraph">
+<p>In order to clamp the punch using hydraulic clamping, the required set pressure is programmed in this parameter and accordingly the main pressure valve output is controlled to give this required pressure for clamping.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_die_clamp_pressure">Die clamp pressure</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">64</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Bar</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_4">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the pressure required to clamp the punch. It is used only when hydraulic clamping is provided for the punch. This parameter appears only when Punch clamp option is ON in PLC options under general parameters tab.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_4">Description</h4>
+<div class="paragraph">
+<p>In order to clamp the punch using hydraulic clamping, the required set pressure is programmed in this parameter and accordingly the main pressure valve output is controlled to give this required pressure for clamping.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_force_limit_protection">Force limit protection</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ON/OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_5">Function</h4>
+<div class="paragraph">
+<p>This parameter activates the force limit protection during bending.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_5">Description</h4>
+<div class="paragraph">
+<p>During bending, the force generated due to tool resistance is compared with the programmed bending force, if the tool resistance force is too high, it automatically goes to decompression phase and then opening phase. After the completion of the bending cycle, an error message will appear on the screen.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_show_mount_points">Show mount points</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes or No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_6">Function</h4>
+<div class="paragraph">
+<p>This parameter activates the LED indication of tool mounting points, if the LED option is available in the machine.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_6">Description</h4>
+<div class="paragraph">
+<p>To turn LEDs ON to show the mount points of the tools according to the backgauge position.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_clamping_options">Clamping Options</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/clamping.png" alt="Clamping">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_clamp_delay">Clamp delay</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-60000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1200</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_7">Function</h4>
+<div class="paragraph">
+<p>This is the delay till which the clamping digital input is ON after receiving the pressure feedback signal for clamping.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_7">Description</h4>
+<div class="paragraph">
+<p>This is done to make sure the clamping pressure stabilizes, and desired pressure reaches the clamping circuit from the clamping solenoid. This parameter appears only when clamp option is ON in PLC options under general parameters tab.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_unclamp_delay">Unclamp delay</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-60000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_8">Function</h4>
+<div class="paragraph">
+<p>This is the delay given for releasing the pressure from clamping circuit through the unclamping solenoid.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_8">Description</h4>
+<div class="paragraph">
+<p>This is done to make sure that pressure is released fully from the clamping circuit, if this delay is not given even after giving unclamping signal, the pressure will not be fully released, and tools cannot be removed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_auto_clamping">Auto clamping</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ON/OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">OFF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_9">Function</h4>
+<div class="paragraph">
+<p>This must be ON if auto clamping function needs to be active.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_9">Description</h4>
+<div class="paragraph">
+<p>If this option is ON, auto clamping delay parameter appears. This is used to save time by automatically clamping the tools once in specified time period.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_auto_clamping_delay">Auto clamping delay</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 60000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">90</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">min</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_10">Function</h4>
+<div class="paragraph">
+<p>This defines the time period in which auto clamping occurs.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_10">Description</h4>
+<div class="paragraph">
+<p>For example, if auto clamping delay is 90 minutes, then auto clamping happens once in every 90 minutes automatically. This parameter appears only when auto clamping option is ON in clamping options in tools options under general parameters tab.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_safety">Safety</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>These safety parameters are related to RAM and backgauge axis with respect to punch and die.</p>
+</div>
+<div class="sect2">
+<h3 id="_minimal_intermediate_x_for_z_distance">Minimal intermediate X for Z distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_11">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimum intermediate distance of X for Z-axes movement.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_11">Description</h4>
+<div class="paragraph">
+<p>If the backgauge lies within the die zone, then for any Z movement the backgauge retracts up to this set distance before moving Z axis. This is set in order to prevent the backgauge and die rubbing against each other.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_minimal_intermediate_r_for_x_distance">Minimal intermediate R for X distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_12">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimum intermediate distance of R for X-axes movement.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_12">Description</h4>
+<div class="paragraph">
+<p>If the R-axis position is lesser to this parameter distance, then first the X-axes is positioned to its target position, followed by R-axis. This make sure that the fingers are not collided directly to the tools.</p>
+</div>
+<div class="paragraph">
+<p>If the backgauge lies within the die zone, then for any X movement the backgauge moves up for this set distance before moving X axis. This is set in order to prevent the backgauge and die rubbing against each other.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_safety_x_distance">Safety X distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 50</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">40</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_13">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the die safety zone.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_13">Description</h4>
+<div class="paragraph">
+<p>This parameter is used to set the die safety zone. If set to zero, the safety zone is defined from centre of the die(zero) to (die width)/2 (from centre of the die to end of the die). For example, if die total width is 25 mm and this parameter is set to 0, then safety zone is set from 0 to 12.5 mm (die width/2). If this parameter is set to say 5 mm, then safety zone is set from 0 to 17.5 mm.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/safetyx.png" alt="SafetyX" width="400">
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_consider_reverse_safety_for_x">Consider reverse safety for X</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked or unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_14">Function</h4>
+<div class="paragraph">
+<p>This parameter is used to ignore minimal intermediate R for X distance when gauge is retracting (reverse X movement).</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_14">Description</h4>
+<div class="paragraph">
+<p>This parameter is checked by default, so the minimal intermediate R for X distance is considered even for retraction movement (X axis away from tool).</p>
+</div>
+<div class="paragraph">
+<p>This can be disabled by unchecking the check box in order to save time. If unchecked X retracts directly without considering minimal intermediate R for X distance even when backgauge is in safety zone.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_safety_distance_r_below_bg_reference">Safety distance R below BG reference</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">500</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_15">Function</h4>
+<div class="paragraph">
+<p>Used to determine safety zone based on tool profile of die.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_15">Description</h4>
+<div class="paragraph">
+<p>Consider below die as example:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/safetydistancer.png" alt="SafetyDistanceR" width="300">
+</div>
+</div>
+<div class="paragraph">
+<p>Total width of the die is 20 mm. But if we consider top region alone, the width is 16 mm. So, if the die is in Flipped state, the safety distance should be 6 mm and not 10 mm. It also depends on BG position. If BG safety zone is below the notch, the safety distance will increase from 6 mm to 10 mm. BG safety zone top is considered when dealing with punch. So, BG inside punch zone warning is raised based on whether the punch profile is inside the BG safety zone. If user give higher value like 500 mm, Safety zone is considered as bound of both die and punch.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_safety_distance_r_above_bg_reference">Safety distance R above BG reference</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">500</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_16">Function</h4>
+<div class="paragraph">
+<p>Used to control display of BG inside punch zone warning message.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_16">Description</h4>
+<div class="paragraph">
+<p>Consider below die as example:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/safetydistancer1.png" alt="SafetyDistanceR1" width="300">
+</div>
+</div>
+<div class="paragraph">
+<p>Total width of the die is 20 mm. But if we consider top region alone, the width is 16 mm. So, if the die is in Flipped state, the safety distance should be 6 mm and not 10 mm. It also depends on BG position. If BG safety zone is below the notch, the safety distance will increase from 6 mm to 10 mm. BG safety zone top is considered when dealing with punch. So, BG inside punch zone warning is raised based on whether the punch profile is inside the BG safety zone. If user give higher value like 500 mm, Safety zone is considered as bound of both die and punch.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_safety_speed">Safety speed</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/safetyspeed.png" alt="SafetySpeed">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_direction_for_x_axis">Direction for X axis</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">None/Towwards die</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Towwards die</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_17">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_17">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_x_position_from_safety_x_distance">X position from safety X distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0 to 1000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_18">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_18">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_x_axes_speed_percentage">X axes speed percentage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_19">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_19">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_limit_z_axes_speed_in_x_safety_zone">Limit Z axes speed in X safety zone</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes/No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_20">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_20">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_z_axes_speed_percentage">Z axes speed percentage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_21">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_21">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_limit_r_axes_speed_in_x_safety_zone">Limit R axes speed in X safety zone</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes/No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_r_axes_speed_percentage">R axes speed percentage</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_22">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_22">Description</h4>
+
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_display">Display</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/display.png" alt="Display">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tool_heights_in_run_page">Tool heights in run page</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked/Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_23">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_23">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_safety_x_distance_in_run_page">Safety X distance in run page</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked/Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_24">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_24">Description</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="_min_limit_for_ton_per_meter_overload">Min.limit for ton per meter overload</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">100 to 500</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_25">Function</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_description_25">Description</h4>
+
+</div>
+</div>
+</div>
+</div>
+
+                    </article>
+                </div>
+                <div id="site-toc-holder">
+                    <aside id="site-toc">
+  <h3>Contents</h3>
+  <ul>
+    <li level="1">
+      <a href="#_general">General</a>
+    </li>
+    <li level="2">
+      <a href="#_tool_reference">Tool reference</a>
+    </li>
+    <li level="2">
+      <a href="#_tool_reference_correction">Tool reference correction</a>
+    </li>
+    <li level="2">
+      <a href="#_punch_clamp_pressure">Punch clamp pressure</a>
+    </li>
+    <li level="2">
+      <a href="#_die_clamp_pressure">Die clamp pressure</a>
+    </li>
+    <li level="2">
+      <a href="#_force_limit_protection">Force limit protection</a>
+    </li>
+    <li level="2">
+      <a href="#_show_mount_points">Show mount points</a>
+    </li>
+    <li level="1">
+      <a href="#_clamping_options">Clamping Options</a>
+    </li>
+    <li level="2">
+      <a href="#_clamp_delay">Clamp delay</a>
+    </li>
+    <li level="2">
+      <a href="#_unclamp_delay">Unclamp delay</a>
+    </li>
+    <li level="2">
+      <a href="#_auto_clamping">Auto clamping</a>
+    </li>
+    <li level="2">
+      <a href="#_auto_clamping_delay">Auto clamping delay</a>
+    </li>
+    <li level="1">
+      <a href="#_safety">Safety</a>
+    </li>
+    <li level="2">
+      <a href="#_minimal_intermediate_x_for_z_distance">Minimal intermediate X for Z distance</a>
+    </li>
+    <li level="2">
+      <a href="#_minimal_intermediate_r_for_x_distance">Minimal intermediate R for X distance</a>
+    </li>
+    <li level="2">
+      <a href="#_safety_x_distance">Safety X distance</a>
+    </li>
+    <li level="2">
+      <a href="#_consider_reverse_safety_for_x">Consider reverse safety for X</a>
+    </li>
+    <li level="2">
+      <a href="#_safety_distance_r_below_bg_reference">Safety distance R below BG reference</a>
+    </li>
+    <li level="2">
+      <a href="#_safety_distance_r_above_bg_reference">Safety distance R above BG reference</a>
+    </li>
+    <li level="1">
+      <a href="#_safety_speed">Safety speed</a>
+    </li>
+    <li level="2">
+      <a href="#_direction_for_x_axis">Direction for X axis</a>
+    </li>
+    <li level="2">
+      <a href="#_x_position_from_safety_x_distance">X position from safety X distance</a>
+    </li>
+    <li level="2">
+      <a href="#_x_axes_speed_percentage">X axes speed percentage</a>
+    </li>
+    <li level="2">
+      <a href="#_limit_z_axes_speed_in_x_safety_zone">Limit Z axes speed in X safety zone</a>
+    </li>
+    <li level="2">
+      <a href="#_z_axes_speed_percentage">Z axes speed percentage</a>
+    </li>
+    <li level="2">
+      <a href="#_limit_r_axes_speed_in_x_safety_zone">Limit R axes speed in X safety zone</a>
+    </li>
+    <li level="2">
+      <a href="#_r_axes_speed_percentage">R axes speed percentage</a>
+    </li>
+    <li level="1">
+      <a href="#_display">Display</a>
+    </li>
+    <li level="2">
+      <a href="#_tool_heights_in_run_page">Tool heights in run page</a>
+    </li>
+    <li level="2">
+      <a href="#_safety_x_distance_in_run_page">Safety X distance in run page</a>
+    </li>
+    <li level="2">
+      <a href="#_min_limit_for_ton_per_meter_overload">Min.limit for ton per meter overload</a>
+    </li>
+  </ul>
+</aside>
+
+                </div>
+            </div>
+            <nav class="pagination">
+  <span class="prev"><a href="machine.html">Machine</a></span>
+  <span class="next"><a href="safety.html">Safety</a></span>
+</nav>
+
+        </div>
+        <div id="searchbox">
+          <input id="searchinput" type="search" placeholder="Search... (Key: F)" autocomplete="false" size="30" />
+          <ul id="results"></ul>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="left">
+            <p>&nbsp;&nbsp;Copyright &copy; 2025 by Jiangsu Jinfangyuan CNC Machine Co.. All rights reserved.</p>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <p>Compiled by Bento</p>
+            <img src="../../../res/bento.png" />
+        </div>
+    </footer>
+    <script>
+        // The baseLevel is used to assign the search result pages.
+        var baseLevel = "../../../res".replace("res", "");
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../../res/index.js"></script>
+    <script src="../../../res/files.js"></script>
+    <script src="../../../res/site.js"></script>
+
+    
+</body>
+</html>

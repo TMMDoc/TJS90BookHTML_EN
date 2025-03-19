@@ -1,0 +1,612 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="../../../res/bento.css">
+  <link rel="stylesheet" href="../../../res/site.css">
+  <link rel="stylesheet" href="../../../res/tree.css">
+  <link rel="stylesheet" href="../../../res/sibling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Hand Wheel</title>
+</head>
+<body id="site-body" onload="sLoaded()">
+    <header id="site-header">
+        <div id="header-logo"><img src="../../../img/jfy.jpg" width="103" height="34" /></div>
+        <div><p>TJS90 Online Help</p></div>
+    </header>
+    <div id="site-main">
+        <nav id="site-nav">
+            <div class="treesite">
+  <ul>
+    <li><button class="tree blank"></button><a href="../../../index.html">Welcome to TJS90 </a></li>
+    <li><button class="tree blank"></button><a href="../../../installation.html">Installing the Software</a></li>
+    <li><button class="tree blank"></button><a href="../../../home/index.html">Home</a></li>
+    <li><button class="tree blank"></button><a href="../../../create/index.html">Create</a></li>
+    <li><button class="tree blank"></button><a href="../../../edit/index.html">Edit</a></li>
+    <li><button class="tree blank"></button><a href="../../../run/index.html">Run</a></li>
+    <li>
+      <button class="tree open"></button>
+      <a href="../../index.html">Settings</a>
+      <ul>
+        <li><button class="tree blank"></button><a href="../../jogaxes.html">Jog Axes</a></li>
+        <li><button class="tree blank"></button><a href="../../manualprogram.html">Manual Program</a></li>
+        <li><button class="tree blank"></button><a href="../../toolinventory.html">Tool Inventory</a></li>
+        <li>
+          <button class="tree open"></button>
+          <a href="../index.html">Other Settings</a>
+          <ul>
+            <li><button class="tree blank"></button><a href="../machinesettings.html">Machine Settings</a></li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../generalparameters/index.html">General Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../generalparameters/machine.html">Machine</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/tools.html">Tools</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/safety.html">Safety</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/canports.html">CAN ports</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/plcoptions.html">PLC Options</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalinputconfig.html">Digital input configuration</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/maintenance.html">Maintenance</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/log.html">Log</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/diagnostics.html">Diagnostics</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/display.html">Display</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalprotractor.html">Digital Protractor</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/barcode.html">Barcode</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../yaxisparameters/index.html">Y-Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../yaxisparameters/general.html">General</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/mute.html">Mute</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/feedback.html">Feedback</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressurevalve.html">Pressure Valve</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressuresensor.html">Pressure Sensor</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/idle.html">Idle</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosing.html">Fast Closing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosingadv.html">Fast Closing Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressing.html">Pressing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressureadvancedpos.html">Pressure Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/decompression.html">Decompression</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/opening.html">Opening</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/yaxiscold.html">Y-Axis Cold Condition Parameters</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/crowning.html">Crowning</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/electricpressbrake.html">Electric Press Brake</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree open"></button>
+              <a href="index.html">Axis Parameters</a>
+              <ul>
+                <li><button class="tree blank"></button><a href="xaxis.html">X Axis</a></li>
+                <li><button class="tree blank"></button><a class="active" href="handwheel.html">Hand Wheel</a></li>
+                <li><button class="tree blank"></button><a href="fl1.html">FL1</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../defaults/index.html">Defaults</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../defaults/bendcycle.html">Bend Cycle</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/bendprogram.html">Bend program</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/importexport.html">Import/Export</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><button class="tree blank"></button><a href="../../../file selection panel/index.html">File Selection Panel</a></li>
+    <li><button class="tree blank"></button><a href="../../../part settings/index.html">Part Settings</a></li>
+    <li><button class="tree blank"></button><a href="../../../link programs/index.html">Link Programs</a></li>
+    <li><button class="tree blank"></button><a href="../../../table programming/index.html">Table Programming</a></li>
+  </ul>
+</div>
+
+        </nav>
+        <div id="site-nav-right">
+            <nav id="site-crumb">
+  <div>
+    <button>
+      <img src="../../../res/home.png">
+    </button>
+  </div>
+  <div>
+    <a href="../../index.html">Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="../index.html">Other Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="index.html">Axis Parameters</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="handwheel.html">Hand Wheel</a>
+  </div>
+</nav>
+
+            <div id="site-crumb-below">
+                <div id="site-toc-left">
+                    <article id="article">
+                        <h1>Hand Wheel</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This option is available only if handwheel feature is enabled in license.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general">General</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_communication">Communication</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">CAN / EtherCAT / Analog / Virtual / Smart axis</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Virtual</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function">Function</h4>
+<div class="paragraph">
+<p>This parameter defines how handwheel communicates with controller. The handwheel generally uses analog axes.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description">Description</h4>
+<div class="paragraph">
+<p>The controller supports five types of communication namely Analog Axis, Smart Axis, CAN Axis EtherCAT Axis and Virtual Axis.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_node">Node</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 28</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_2">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the address of the configured axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_2">Description</h4>
+<div class="paragraph">
+<p>In order to identify the configured axis, each axis are denoted with node ID called address of the axis.</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Make sure the axis name and node ID are configured correctly, else the mismatch can lead to wrong data transfer and accidents may occur.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_speed_and_acceleration">Speed and acceleration</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_increments">Increments</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-4294967296</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1280000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_3">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the number of increments of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_3">Description</h4>
+<div class="paragraph">
+<p>This parameter is the number of increments given by encoder per revolution.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_home_parameter">Home Parameter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Before proceeding to the home parameter, the homing procedure is explained below.</p>
+</div>
+<div class="sect2">
+<h3 id="_homing_introduction">Homing Introduction</h3>
+<div class="paragraph">
+<p>Most encoders used these days are incremental encoders which can only report changes in position not the absolute position. Hence for an encoder interface to track and report absolute position, the encoder counts must be correlated to a reference position in the mechanical system to which the encoder is attached. This is commonly done by homing the system, which consists of moving the mechanical system (and encoder) until it aligns with a reference position.</p>
+</div>
+<div class="paragraph">
+<p>Homing is required whenever machine/controller restarts or when some machine parameters are changed.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/homing.png" alt="Homing">
+</div>
+<div class="title">Figure 1. Machine not referenced message in RUN screen</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_homing_procedure_in_ra">Homing Procedure in RA</h3>
+<div class="paragraph">
+<p>Homing can be done in RA software either in <strong>JOG</strong> screen or <strong>RUN</strong> screen.</p>
+</div>
+<div class="paragraph">
+<p>When an axis is not homed the position shown is prefixed with a '*', indicating that position is not correct, and axis needs to be homed.</p>
+</div>
+<div class="paragraph">
+<p>When user enters RUN screen and axes are not homed, then 'Machine not referenced' message appears in the bottom right of the screen.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make sure the emergency button is released and pump is ON.</p>
+</li>
+<li>
+<p>After reaching the RUN screen 'Machine not referenced' message appears.</p>
+<div class="paragraph">
+<p><strong>Case 1 (RAM position below reference mark):</strong></p>
+</div>
+</li>
+<li>
+<p>Press the Start button, RAM moves up in search of reference mark and backgauge axis also starts homing in sequence entered in machine parameters (Axis parameters &#8594; Homing parameter &#8594; Sequence).</p>
+</li>
+<li>
+<p>The '*' prefix disappears for axes position (if homed) in numeric screen.</p>
+</li>
+<li>
+<p>Now if reset (UP pedal) is pressed the backgauge moves to commanded position and program is ready to RUN.</p>
+<div class="paragraph">
+<p><strong>Case 2 (RAM position above reference mark):</strong></p>
+</div>
+</li>
+<li>
+<p>Press the Start button, RAM moves up in search of reference mark and backgauge also starts to home in sequence entered in machine parameters. As the reference mark is below the RAM, RAM moves up till mechanical upper dead point (beyond this point lag error increases as despite giving command RAM will not be able to move) and stops as no reference pulse is received.</p>
+</li>
+<li>
+<p>Now message 'Press Down pedal until RAM stops' appears.</p>
+</li>
+<li>
+<p>RAM moves down in search of reference mark as down pedal is pressed.</p>
+</li>
+<li>
+<p>While RAM moves down and the reference mark is found, the homing process of RAM (Y1, Y2) is not completed as it is advised to obtain the reference signal when RAM moves in same direction (UP in this case). Now the controller goes to stop mode and STOP LED (RED LED) glows in the panel.</p>
+</li>
+<li>
+<p>Now message 'Press Start button' appears. When Start button is pressed RAM moves up and completes homing after finding reference mark while moving in UP direction.</p>
+</li>
+<li>
+<p>Now pressing UP pedal (reset) the backgauge moves to the target position and program is ready to RUN.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Homing can also be done from <strong>JOG</strong> mode following the same procedure.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>After reaching UDP without finding reference mark, "Press Down Pedal until RAM stops" appears as mentioned below:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/home1.png" alt="Home1">
+</div>
+</div>
+<div class="paragraph">
+<p>When reference mark is found while RAM moves down, "Press Start Button" message appears as mentioned below:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/home2.png" alt="Home2">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_homing_direction_change">Homing Direction change</h3>
+<div class="paragraph">
+<p>In case the operator knows that RAM is above the reference mark and wants to avoid the default upward movement of the RAM then operator can force a change in homing direction by following these steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Enter RUN or JOG screen, emergency button must be in released state and pump must be ON.</p>
+</li>
+<li>
+<p>Now make sure machine is in stop condition (RED LED must glow in panel), if not in stop condition press the stop button and then press down pedal for 5 seconds.</p>
+</li>
+<li>
+<p>'Homing dir down, release foot pedal' message appears. Release the foot pedal.</p>
+</li>
+<li>
+<p>Now 'Press down pedal until RAM stop' message appears.</p>
+</li>
+<li>
+<p>Press the Start button and then press down pedal.</p>
+</li>
+<li>
+<p>RAM stops after detecting the reference pulse, homing is not yet completed as the reference pulse must always be found when is moving UP.</p>
+</li>
+<li>
+<p>'Press start button' message appears. Now after pressing start button RAM moves UP, finds the reference pulse and homing will complete.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>For machine operators</strong><br></p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+While homing (when RAM moves down in search for reference pulse) if the footpedal down is not pressed continuously or the RAM movement is unstable there are chances for not detecting the reference pulse in this case RAM keeps moving down and if tools are mounted in the machine it may collide.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Hence operator must monitor the RAM when moving down and in cases where operator feels the reference pulse has not been detected despite RAM moving down significantly, operator must stop pressing down pedal.
+Operator must stop pressing Down pedal and press the emergency button, then release the emergency and press reset (Up pedal) to ON the pump, and again press reset (Up pedal).
+Now on pressing the start button, homing will start with RAM moving up (default homing direction).</p>
+</div>
+<div class="paragraph">
+<p><strong>RAM synchronization error</strong></p>
+</div>
+<div class="paragraph">
+<p>In some cases, due to unstable movement the Y1 Y2 difference exceeds the allowed Y1 Y2 difference and RAM Sync error occurs and RAM cannot be moved in RUN or JOG mode.
+In these cases, it is required to login to machine parameters with service access level and enter diagnostic mode and manually move the RAM, hence operators cannot handle this error on their own.
+Hence in RA there is a feature provided which forces homing to happen for Y1 Y2 (without restarting the machine), so that operators can handle RAM sync error without resorting to service person.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_how_to_handle_ram_synchronization_error">How to handle RAM Synchronization error</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Once RAM Sync error occurs, it is not possible to move RAM in run mode.</p>
+</li>
+<li>
+<p>Now operator must press emergency button and press Up pedal for about 5 sec until the Y axis position is prefixed with *. This means homing for Y axis will start once again.</p>
+</li>
+<li>
+<p>Now operator can release the emergency, press reset (Up pedal) to ON the pump and press start button to start the normal homing process.</p>
+</li>
+<li>
+<p>Now RAM moves up in search reference mark and normal homing process starts as mentioned above.</p>
+</li>
+</ol>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/home3.png" alt="Home3">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conclusion">Conclusion</h3>
+<div class="paragraph">
+<p>As homing when RAM position is above the reference mark is a two-step process, it is advised to lower the RAM before restarting or powering off the machine in order to complete homing quickly when machine is powered on next time.</p>
+</div>
+<div class="paragraph">
+<p>Generally, when the homing command is activated, all the backgauge axis will start to move in the homing direction (Safe direction, selected in homing parameter). If the backgauge is near to the tools during homing, then the movement of the R - axis may result in collision with tools. In order to avoid this type of collision the X-axis will be homed first with Sequence number as 1 (default value of parameter) and other R &amp; Z axis will be sequence number 2 (default value of parameter), to follow the homing process.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_count_direction">Count direction</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up/Down</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_4">Function</h4>
+<div class="paragraph">
+<p>This parameter defines encoder pulse counting direction.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_4">Description</h4>
+<div class="paragraph">
+<p>This parameter is used when the encoder pulse counting direction needs to be reversed.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+                    </article>
+                </div>
+                <div id="site-toc-holder">
+                    <aside id="site-toc">
+  <h3>Contents</h3>
+  <ul>
+    <li level="1">
+      <a href="#_general">General</a>
+    </li>
+    <li level="2">
+      <a href="#_communication">Communication</a>
+    </li>
+    <li level="2">
+      <a href="#_node">Node</a>
+    </li>
+    <li level="1">
+      <a href="#_speed_and_acceleration">Speed and acceleration</a>
+    </li>
+    <li level="2">
+      <a href="#_increments">Increments</a>
+    </li>
+    <li level="1">
+      <a href="#_home_parameter">Home Parameter</a>
+    </li>
+    <li level="2">
+      <a href="#_homing_introduction">Homing Introduction</a>
+    </li>
+    <li level="2">
+      <a href="#_homing_procedure_in_ra">Homing Procedure in RA</a>
+    </li>
+    <li level="2">
+      <a href="#_homing_direction_change">Homing Direction change</a>
+    </li>
+    <li level="2">
+      <a href="#_how_to_handle_ram_synchronization_error">How to handle RAM Synchronization error</a>
+    </li>
+    <li level="2">
+      <a href="#_conclusion">Conclusion</a>
+    </li>
+    <li level="2">
+      <a href="#_count_direction">Count direction</a>
+    </li>
+  </ul>
+</aside>
+
+                </div>
+            </div>
+            <nav class="pagination">
+  <span class="prev"><a href="xaxis.html">X Axis</a></span>
+  <span class="next"><a href="fl1.html">FL1</a></span>
+</nav>
+
+        </div>
+        <div id="searchbox">
+          <input id="searchinput" type="search" placeholder="Search... (Key: F)" autocomplete="false" size="30" />
+          <ul id="results"></ul>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="left">
+            <p>&nbsp;&nbsp;Copyright &copy; 2025 by Jiangsu Jinfangyuan CNC Machine Co.. All rights reserved.</p>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <p>Compiled by Bento</p>
+            <img src="../../../res/bento.png" />
+        </div>
+    </footer>
+    <script>
+        // The baseLevel is used to assign the search result pages.
+        var baseLevel = "../../../res".replace("res", "");
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../../res/index.js"></script>
+    <script src="../../../res/files.js"></script>
+    <script src="../../../res/site.js"></script>
+
+    
+</body>
+</html>

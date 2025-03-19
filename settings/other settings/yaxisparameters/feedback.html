@@ -1,0 +1,749 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="../../../res/bento.css">
+  <link rel="stylesheet" href="../../../res/site.css">
+  <link rel="stylesheet" href="../../../res/tree.css">
+  <link rel="stylesheet" href="../../../res/sibling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Feedback</title>
+</head>
+<body id="site-body" onload="sLoaded()">
+    <header id="site-header">
+        <div id="header-logo"><img src="../../../img/jfy.jpg" width="103" height="34" /></div>
+        <div><p>TJS90 Online Help</p></div>
+    </header>
+    <div id="site-main">
+        <nav id="site-nav">
+            <div class="treesite">
+  <ul>
+    <li><button class="tree blank"></button><a href="../../../index.html">Welcome to TJS90 </a></li>
+    <li><button class="tree blank"></button><a href="../../../installation.html">Installing the Software</a></li>
+    <li><button class="tree blank"></button><a href="../../../home/index.html">Home</a></li>
+    <li><button class="tree blank"></button><a href="../../../create/index.html">Create</a></li>
+    <li><button class="tree blank"></button><a href="../../../edit/index.html">Edit</a></li>
+    <li><button class="tree blank"></button><a href="../../../run/index.html">Run</a></li>
+    <li>
+      <button class="tree open"></button>
+      <a href="../../index.html">Settings</a>
+      <ul>
+        <li><button class="tree blank"></button><a href="../../jogaxes.html">Jog Axes</a></li>
+        <li><button class="tree blank"></button><a href="../../manualprogram.html">Manual Program</a></li>
+        <li><button class="tree blank"></button><a href="../../toolinventory.html">Tool Inventory</a></li>
+        <li>
+          <button class="tree open"></button>
+          <a href="../index.html">Other Settings</a>
+          <ul>
+            <li><button class="tree blank"></button><a href="../machinesettings.html">Machine Settings</a></li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../generalparameters/index.html">General Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../generalparameters/machine.html">Machine</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/tools.html">Tools</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/safety.html">Safety</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/canports.html">CAN ports</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/plcoptions.html">PLC Options</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalinputconfig.html">Digital input configuration</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/maintenance.html">Maintenance</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/log.html">Log</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/diagnostics.html">Diagnostics</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/display.html">Display</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalprotractor.html">Digital Protractor</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/barcode.html">Barcode</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree open"></button>
+              <a href="index.html">Y-Axis Parameters</a>
+              <ul>
+                <li><button class="tree blank"></button><a href="general.html">General</a></li>
+                <li><button class="tree blank"></button><a href="mute.html">Mute</a></li>
+                <li><button class="tree blank"></button><a class="active" href="feedback.html">Feedback</a></li>
+                <li><button class="tree blank"></button><a href="pressurevalve.html">Pressure Valve</a></li>
+                <li><button class="tree blank"></button><a href="pressuresensor.html">Pressure Sensor</a></li>
+                <li><button class="tree blank"></button><a href="idle.html">Idle</a></li>
+                <li><button class="tree blank"></button><a href="fastclosing.html">Fast Closing</a></li>
+                <li><button class="tree blank"></button><a href="fastclosingadv.html">Fast Closing Advanced</a></li>
+                <li><button class="tree blank"></button><a href="pressing.html">Pressing</a></li>
+                <li><button class="tree blank"></button><a href="pressureadvancedpos.html">Pressure Advanced</a></li>
+                <li><button class="tree blank"></button><a href="decompression.html">Decompression</a></li>
+                <li><button class="tree blank"></button><a href="opening.html">Opening</a></li>
+                <li><button class="tree blank"></button><a href="yaxiscold.html">Y-Axis Cold Condition Parameters</a></li>
+                <li><button class="tree blank"></button><a href="crowning.html">Crowning</a></li>
+                <li><button class="tree blank"></button><a href="electricpressbrake.html">Electric Press Brake</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../axisparameters/index.html">Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../axisparameters/xaxis.html">X Axis</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/handwheel.html">Hand Wheel</a></li>
+                <li><button class="tree blank"></button><a href="../axisparameters/fl1.html">FL1</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../defaults/index.html">Defaults</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../defaults/bendcycle.html">Bend Cycle</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/bendprogram.html">Bend program</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/importexport.html">Import/Export</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><button class="tree blank"></button><a href="../../../file selection panel/index.html">File Selection Panel</a></li>
+    <li><button class="tree blank"></button><a href="../../../part settings/index.html">Part Settings</a></li>
+    <li><button class="tree blank"></button><a href="../../../link programs/index.html">Link Programs</a></li>
+    <li><button class="tree blank"></button><a href="../../../table programming/index.html">Table Programming</a></li>
+  </ul>
+</div>
+
+        </nav>
+        <div id="site-nav-right">
+            <nav id="site-crumb">
+  <div>
+    <button>
+      <img src="../../../res/home.png">
+    </button>
+  </div>
+  <div>
+    <a href="../../index.html">Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="../index.html">Other Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="index.html">Y-Axis Parameters</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="feedback.html">Feedback</a>
+  </div>
+</nav>
+
+            <div id="site-crumb-below">
+                <div id="site-toc-left">
+                    <article id="article">
+                        <h1>Feedback</h1>
+<div class="sect1">
+<h2 id="_linear_scale">Linear scale</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/feedbacklinear.png" alt="FeedbackLinear">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_linear_scale_resolution">Linear scale resolution</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 Micron / 5 Micron</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">5 Micron</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Microns</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the resolution of linear scales.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description">Description</h4>
+<div class="paragraph">
+<p>The resolution of linear scales used in Left (Y1) and Right (Y2) side of RAM is defined here and it supports 1 micron or 5 microns resolution. Please make sure that both the sides use the same resolution of linear scale.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_distance">Distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.001-10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">220</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_2">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the length of the linear scale.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_2">Description</h4>
+<div class="paragraph">
+<p>This parameter will make sure the controller is able to read the counts for the entire length of the scale.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reference_left_y1">Reference left (Y1)</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-9999.99</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_3">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the reference offset position of Y1-axis left side linear scale and parallelism adjustment.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_3">Description</h4>
+<div class="paragraph">
+<p>With respect to this value, the Y1-axis position is displayed on the screen after passing the reference mark.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This value must be greater than the mechanical travel distance on the scale from reference mark position to the scale end. This travel distance must also be greater than the mechanical travel of the cylinder from reference point position to the upper dead point mechanical in the cylinder. Make sure that when the cylinder is on the mechanical upper dead stop the Y-axis value readout is between 5 and 10 mm.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reference_left_y2">Reference left (Y2)</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-9999.99</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_4">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the reference offset position of Y2-axis left side linear scale and parallelism adjustment.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_4">Description</h4>
+<div class="paragraph">
+<p>With respect to this value, the Y2-axis position is displayed on the screen after passing the reference mark.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_count_direction_left_y1">Count direction left (Y1)</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up / Down</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Standard</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_5">Function</h4>
+<div class="paragraph">
+<p>This parameter defines encoder pulse counting direction of Y1 linear scale.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_5">Description</h4>
+<div class="paragraph">
+<p>Generally, the position counting of Y1 should be up-counting when the beam is moving down. This parameter is used when the encoder pulse counting direction needs to be reversed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_count_direction_left_y2">Count direction left (Y2)</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up / Down</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Standard</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_6">Function</h4>
+<div class="paragraph">
+<p>This parameter defines encoder pulse counting direction of Y2 linear scale.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_6">Description</h4>
+<div class="paragraph">
+<p>This parameter is used when the encoder pulse counting direction needs to be reversed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_is_hardware_limit_enabled">Is Hardware Limit enabled</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked / Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_7">Function</h4>
+<div class="paragraph">
+<p>This parameter enables/disables the hardware limit switch of Y-axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_7">Description</h4>
+<div class="paragraph">
+<p>The controller is equipped with both Negative and Positive hardware limit switch input individually for Y1 and Y2 axis. If the hardware limit is active, the controller expects both the positive &amp; negative inputs, else the error message appears on the screen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If positive switch is absent - 'Y Axis - Positive hardware limit switch active'</p>
+</li>
+<li>
+<p>If negative switch is absent -' Y Axis - Negative hardware limit switch active'</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For detailed description of hardware switches refer RA SmartCore 800 manual.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general">General</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/feedbackgeneral.png" alt="FeedbackGeneral">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_y_ref_search_speed">Y-ref search speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10-250</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">125</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm/s</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_8">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the speed with which the beam moves in upward direction during reference search cycle.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_8">Description</h4>
+<div class="paragraph">
+<p>When the reference search cycle of the Y-axis is started, the beam is moved in the upward direction with the speed programmed here. The sequence of the complete reference cycle depends on the position of the beam:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the beam was positioned below the reference point, the Y-axis will reach the reference point and set the position.</p>
+</li>
+<li>
+<p>If the beam was positioned above the reference point, the beam will also move upwards with the programmed speed. When the beam reaches the mechanical upper dead point, the control will detect after a short period that there is no movement and will stop the reference command. Now, when the foot pedal close is pressed, the beam start move downwards with closing speed (specified in pressing parameter).</p>
+</li>
+<li>
+<p>During downward movement, when the beam crosses the reference mark, a stop command is issued, and the controller goes to stop mode. At this position, it is made sure that the beam is below the reference point. Now, when a start command is given the beam moves in the upward direction, crosses the reference mark and set the position of Y-axis to complete the reference cycle.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This method of reference cycle make sure that the Y-axis position is always set during the upward movement(while referencing) of the beam.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_y_ref_search_acceleration">Y-ref search acceleration</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">70</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_9">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the time in which the beam reaches max speed from zero speed during reference search cycle.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_9">Description</h4>
+<div class="paragraph">
+<p>NA</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_parallelity_switch">Parallelity switch</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">No Switch / Two Switch</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">No Switch</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">NA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_10">Function</h4>
+<div class="paragraph">
+<p>Two switches mounted across Y1 &amp; Y2 is used for Parallelism indication of the RAM used before Y-axis references are passed.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_10">Description</h4>
+<div class="paragraph">
+<p>If the parameter is selected as 'Two Switch', then the switch inputs are connected to digital inputs of SmartCore. With this inputs the control has an indication of the parallelism of the RAM. When this inputs are active (switch closed) the RAM parallelism is OK.</p>
+</div>
+<div class="paragraph">
+<p>If left side switch is open, then the RAM is down in left side and up in right side or vice versa. Depends on the switch status, the RAM is moved in one side to make it parallel at lower speed and then pass the reference.</p>
+</div>
+<div class="paragraph">
+<p>When the parallel switch is not mounted (No switch selected) the control will not use this input before the references are passed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_levelling_speed">Levelling Speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10 to 250</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm/s</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_11">Function</h4>
+<div class="paragraph">
+<p>This parameter is not yet validated.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This parameter appears only if <strong>two switch</strong> is selected in parallelity switch parameter. It is speed at which RAM moves if Y1 and Y2 are not parallel before referencing(homing).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_11">Description</h4>
+<div class="paragraph">
+<p>For example, if left side parallelity switch is open, then the RAM is down in left side and up in right side or vice versa. Depending on the switch status, the RAM is moved in one side to make it parallel at this entered speed and only then homing starts.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+                    </article>
+                </div>
+                <div id="site-toc-holder">
+                    <aside id="site-toc">
+  <h3>Contents</h3>
+  <ul>
+    <li level="1">
+      <a href="#_linear_scale">Linear scale</a>
+    </li>
+    <li level="2">
+      <a href="#_linear_scale_resolution">Linear scale resolution</a>
+    </li>
+    <li level="2">
+      <a href="#_distance">Distance</a>
+    </li>
+    <li level="2">
+      <a href="#_reference_left_y1">Reference left (Y1)</a>
+    </li>
+    <li level="2">
+      <a href="#_reference_left_y2">Reference left (Y2)</a>
+    </li>
+    <li level="2">
+      <a href="#_count_direction_left_y1">Count direction left (Y1)</a>
+    </li>
+    <li level="2">
+      <a href="#_count_direction_left_y2">Count direction left (Y2)</a>
+    </li>
+    <li level="2">
+      <a href="#_is_hardware_limit_enabled">Is Hardware Limit enabled</a>
+    </li>
+    <li level="1">
+      <a href="#_general">General</a>
+    </li>
+    <li level="2">
+      <a href="#_y_ref_search_speed">Y-ref search speed</a>
+    </li>
+    <li level="2">
+      <a href="#_y_ref_search_acceleration">Y-ref search acceleration</a>
+    </li>
+    <li level="2">
+      <a href="#_parallelity_switch">Parallelity switch</a>
+    </li>
+    <li level="2">
+      <a href="#_levelling_speed">Levelling Speed</a>
+    </li>
+  </ul>
+</aside>
+
+                </div>
+            </div>
+            <nav class="pagination">
+  <span class="prev"><a href="mute.html">Mute</a></span>
+  <span class="next"><a href="pressurevalve.html">Pressure Valve</a></span>
+</nav>
+
+        </div>
+        <div id="searchbox">
+          <input id="searchinput" type="search" placeholder="Search... (Key: F)" autocomplete="false" size="30" />
+          <ul id="results"></ul>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="left">
+            <p>&nbsp;&nbsp;Copyright &copy; 2025 by Jiangsu Jinfangyuan CNC Machine Co.. All rights reserved.</p>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <p>Compiled by Bento</p>
+            <img src="../../../res/bento.png" />
+        </div>
+    </footer>
+    <script>
+        // The baseLevel is used to assign the search result pages.
+        var baseLevel = "../../../res".replace("res", "");
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../../res/index.js"></script>
+    <script src="../../../res/files.js"></script>
+    <script src="../../../res/site.js"></script>
+
+    
+</body>
+</html>

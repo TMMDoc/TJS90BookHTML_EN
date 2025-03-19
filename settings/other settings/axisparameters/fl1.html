@@ -1,0 +1,1388 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;600&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,400;0,600;1,400;1,600&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="../../../res/bento.css">
+  <link rel="stylesheet" href="../../../res/site.css">
+  <link rel="stylesheet" href="../../../res/tree.css">
+  <link rel="stylesheet" href="../../../res/sibling.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>FL1</title>
+</head>
+<body id="site-body" onload="sLoaded()">
+    <header id="site-header">
+        <div id="header-logo"><img src="../../../img/jfy.jpg" width="103" height="34" /></div>
+        <div><p>TJS90 Online Help</p></div>
+    </header>
+    <div id="site-main">
+        <nav id="site-nav">
+            <div class="treesite">
+  <ul>
+    <li><button class="tree blank"></button><a href="../../../index.html">Welcome to TJS90 </a></li>
+    <li><button class="tree blank"></button><a href="../../../installation.html">Installing the Software</a></li>
+    <li><button class="tree blank"></button><a href="../../../home/index.html">Home</a></li>
+    <li><button class="tree blank"></button><a href="../../../create/index.html">Create</a></li>
+    <li><button class="tree blank"></button><a href="../../../edit/index.html">Edit</a></li>
+    <li><button class="tree blank"></button><a href="../../../run/index.html">Run</a></li>
+    <li>
+      <button class="tree open"></button>
+      <a href="../../index.html">Settings</a>
+      <ul>
+        <li><button class="tree blank"></button><a href="../../jogaxes.html">Jog Axes</a></li>
+        <li><button class="tree blank"></button><a href="../../manualprogram.html">Manual Program</a></li>
+        <li><button class="tree blank"></button><a href="../../toolinventory.html">Tool Inventory</a></li>
+        <li>
+          <button class="tree open"></button>
+          <a href="../index.html">Other Settings</a>
+          <ul>
+            <li><button class="tree blank"></button><a href="../machinesettings.html">Machine Settings</a></li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../generalparameters/index.html">General Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../generalparameters/machine.html">Machine</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/tools.html">Tools</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/safety.html">Safety</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/canports.html">CAN ports</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/plcoptions.html">PLC Options</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalinputconfig.html">Digital input configuration</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/maintenance.html">Maintenance</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/log.html">Log</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/diagnostics.html">Diagnostics</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/display.html">Display</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/digitalprotractor.html">Digital Protractor</a></li>
+                <li><button class="tree blank"></button><a href="../generalparameters/barcode.html">Barcode</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../yaxisparameters/index.html">Y-Axis Parameters</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../yaxisparameters/general.html">General</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/mute.html">Mute</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/feedback.html">Feedback</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressurevalve.html">Pressure Valve</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressuresensor.html">Pressure Sensor</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/idle.html">Idle</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosing.html">Fast Closing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/fastclosingadv.html">Fast Closing Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressing.html">Pressing</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/pressureadvancedpos.html">Pressure Advanced</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/decompression.html">Decompression</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/opening.html">Opening</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/yaxiscold.html">Y-Axis Cold Condition Parameters</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/crowning.html">Crowning</a></li>
+                <li><button class="tree blank"></button><a href="../yaxisparameters/electricpressbrake.html">Electric Press Brake</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree open"></button>
+              <a href="index.html">Axis Parameters</a>
+              <ul>
+                <li><button class="tree blank"></button><a href="xaxis.html">X Axis</a></li>
+                <li><button class="tree blank"></button><a href="handwheel.html">Hand Wheel</a></li>
+                <li><button class="tree blank"></button><a class="active" href="fl1.html">FL1</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="tree closed"></button>
+              <a href="../defaults/index.html">Defaults</a>
+              <ul class="hide">
+                <li><button class="tree blank"></button><a href="../defaults/bendcycle.html">Bend Cycle</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/bendprogram.html">Bend program</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/importexport.html">Import/Export</a></li>
+                <li><button class="tree blank"></button><a href="../defaults/others.html">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><button class="tree blank"></button><a href="../../../file selection panel/index.html">File Selection Panel</a></li>
+    <li><button class="tree blank"></button><a href="../../../part settings/index.html">Part Settings</a></li>
+    <li><button class="tree blank"></button><a href="../../../link programs/index.html">Link Programs</a></li>
+    <li><button class="tree blank"></button><a href="../../../table programming/index.html">Table Programming</a></li>
+  </ul>
+</div>
+
+        </nav>
+        <div id="site-nav-right">
+            <nav id="site-crumb">
+  <div>
+    <button>
+      <img src="../../../res/home.png">
+    </button>
+  </div>
+  <div>
+    <a href="../../index.html">Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="../index.html">Other Settings</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="index.html">Axis Parameters</a>
+  </div>
+  <div>/</div>
+  <div>
+    <a href="fl1.html">FL1</a>
+  </div>
+</nav>
+
+            <div id="site-crumb-below">
+                <div id="site-toc-left">
+                    <article id="article">
+                        <h1>FL1</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>To enable FL1 axis in Axis Parameter, turn ON <strong>Regrip stations</strong> in <strong>General Parameters &#8594;  Machine</strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general">General</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/general.png" alt="General">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_communication">Communication</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">CAN / EtherCAT / Analog / Virtual / Smart axis</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Virtual</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the type of communication between controller and drives.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description">Description</h4>
+<div class="paragraph">
+<p>The controller supports five types of communication namely Analog Axis, Smart Axis, CAN Axis EtherCAT Axis and Virtual Axis.</p>
+</div>
+<div class="paragraph">
+<p><strong>Analog Axis:</strong>
+The Analog axes card is in-built in the controller and supports maximum of 4 analog axis, out of which first 2 axis are internally configured for Y1 &amp; Y2 axis (RAM) and other 2 axis can be configured for backgauge or handwheel here.</p>
+</div>
+<div class="paragraph">
+<p><strong>Smart Axis:</strong>
+The Smart axes module is an indigenous axes control card which controls maximum of 4 axis. The communication between the controller and smart axes module is through a CAN protocol, but still the control type of Smart axes module is analog voltage.</p>
+</div>
+<div class="paragraph">
+<p><strong>CAN Axis:</strong>
+Many servo drives supports digital communication and one of such is called CAN interface. The communication between the controller and servo drives is CAN protocol , through which the data’s such as position command, velocity command etc., are digitally transferred. The main advantages of digital drives are accurate positioning, faster speeds, less cabling and etc. The controller can support maximum of 14 axes, excluding Y1 &amp; Y2 axis.</p>
+</div>
+<div class="paragraph">
+<p><strong>EtherCAT Axis:</strong>
+Similar to CAN interface, EtherCAT is one of the faster growing communication protocol and almost all the servo drives supports this interface. The controller can support maximum of 14 axes, excluding Y1 &amp; Y2 axis.</p>
+</div>
+<div class="paragraph">
+<p><strong>Virtual Axis:</strong>
+To deactivate the physical output of a configured axis, the Virtual axis selection is used. In this way, the mechanical movement of a configured axis can be deactivated but still the control shows the display of the axis, which are generated virtually. The controller can support maximum of 14 axes, excluding Y1 &amp; Y2 axis.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_node">Node</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 28</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_2">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the address of the configured axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_2">Description</h4>
+<div class="paragraph">
+<p>In order to identify the configured axis, each axis are denoted with node ID called address of the axis. The node ID needs to be specified in each of the drives, if the axes are configured as digital axis (CAN or EtherCAT). In this way, the controller can identify the axis and transmit the correct data to the particular axis.</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Make sure the axis name and node ID are configured correctly, else the mismatch can lead to wrong data transfer and accidents may occur.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hardware_limit_enabled">Hardware limit enabled</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Checked or unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Unchecked</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_3">Function</h4>
+<div class="paragraph">
+<p>This parameter enables/disables the hardware limit switch function of axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_3">Description</h4>
+<div class="paragraph">
+<p>When this parameter is activated, if the axis crosses either positive or negative limit switch, it is stopped with emergency braking deceleration parameter. Depends on the type of the axis configured, the limit switches are connected to digital drives or smart axis module or analog control card.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If either of any one limit switch is connected to the axis end limit input, then the other input must be connected to +24V or 0V depending on the connected module.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_park_position">Park position</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This option is available only for FL1 and FR1 axes.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_limit">Limit</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/limit.png" alt="Limit">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_maximum">Maximum</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-10000 to 10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">varies depends on the axis name</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_4">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum position the axis can be moved to.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_4">Description</h4>
+<div class="paragraph">
+<p>This value is used as a positive software limit. If a programmed or computed axis value is greater than this parameter, the value is limited at the maximum value and an error message appears on the screen.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>X-Axis - Target &gt; Positive software Limit</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_minimum">Minimum</h4>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-10000 to 10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">varies depends on the axis name</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_function_5">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimum position the axis can be moved to.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_5">Description</h4>
+<div class="paragraph">
+<p>This value is used as a negative software limit. If a programmed or computed axis value is smaller than minimum, the value is limited at the minimum value and an error message appears on the screen.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>X-Axis - Target &lt; Negative software Limit</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_speed_and_acceleration">Speed and acceleration</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/speedacceleration.png" alt="SpeedAcceleration">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_velocity">Velocity</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-10000 to 10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">varies depends on the axis name</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm/s</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_6">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum travel speed of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_6">Description</h4>
+<div class="paragraph">
+<p>Normally this value should be programmed to the maximum possible speed of the axis, when the control signal is at maximum.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_acceleration_0_to_max_speed">Acceleration 0 to max speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 to 99999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">125</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_7">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the acceleration time of axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_7">Description</h4>
+<div class="paragraph">
+<p>This is the nominal acceleration of the axis, used to control the axis from zero to maximum speed. This parameter must be programmed as the time in which the axis accelerates from zero to maximum speed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_deceleration_max_speed_to_0">Deceleration max speed to 0</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 to 99999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">125</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_8">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the deceleration time of axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_8">Description</h4>
+<div class="paragraph">
+<p>This is the nominal deceleration of the axis, used to control the axis from maximum to zero speed when axis comes to its target position. This parameter must be programmed as the time in which the axis decelerates from maximum to zero speed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_quick_stop_deceleration_time">Quick stop deceleration time</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 to 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_9">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the Emergency deceleration time of axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_9">Description</h4>
+<div class="paragraph">
+<p>This is the quick stop deceleration of the axis, used to control the axis from maximum to zero speed during critical conditions such as hardware limit active, emergency stop active, etc. This parameter must be programmed as the percentage with respect to the deceleration time of the axis. For instance, if the deceleration time of axis is 100ms, then 20% of it corresponds to 20ms which is the quick stop deceleration time.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ramp_time">Ramp time</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2-999999</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">ms</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_10">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the ramp time called as Jerk of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_10">Description</h4>
+<div class="paragraph">
+<p>This is the time taken for the axis for the ramp up of acceleration and ramp down of deceleration. By this way, the trajectory profile of the axis can be varied from 'Trapezoidal' to required 'S-curve' profiles. Higher the ramp time value will have smooth acceleration and deceleration of the axis; lower values may create in-stability in the axis, such as vibration, overshoot etc.,</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/ramptimemin.png" alt="RampTimeMin" width="410"></span> <span class="image"><img src="img/ramptimemax.png" alt="RampTimeMax" width="410"></span></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_increments">Increments</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-4294967296</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1280000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_11">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the number of increments of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_11">Description</h4>
+<div class="paragraph">
+<p>This parameter is the number of increments given by encoder per revolution of the motor. For Analog axis and Smart axis interface, if an incremental encoder is connected then the number of increments is 4 times multiplied by number of pulses. For instance, if a 2500 PPR encoder is connected, then the number of increments is 10000 (4 x 2500).</p>
+</div>
+<div class="paragraph">
+<p>For digital interface of axis, the drive manufacturer specifies the number of increments of the encoder. For instance, Delta drives &amp; motors - Increments: 1280000, Panasonic A6 drives &amp; motors - Increments: 8388608, etc.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_forward_speed">Forward speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_12">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum forward speed during program run mode.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_12">Description</h4>
+<div class="paragraph">
+<p>During program run mode, it is possible to control the forward speed of the axis from its maximum configured velocity. This parameter is defined in terms of percentage with respect to the maximum velocity of the axis.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_forward_speed_2">Forward speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_13">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum reverse speed during program run mode.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_13">Description</h4>
+<div class="paragraph">
+<p>During program run mode, it is possible to control the reverse speed of the axis from its maximum configured velocity. This parameter is defined in terms of percentage with respect to the maximum velocity of the axis.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_jog_speed_maximum">Jog speed maximum</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">50</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_14">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum speed in jog or manual mode.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_14">Description</h4>
+<div class="paragraph">
+<p>This parameter is defined in terms of percentage with reference to the maximum configured velocity of the axis. Also, this speed corresponds to the big plus and minus button available in jog mode page.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_jog_speed_minimum">Jog speed minimum</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1 - 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">%</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_15">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the minimum speed in jog or manual mode.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_15">Description</h4>
+<div class="paragraph">
+<p>This parameter is defined in terms of percentage with reference to the maximum configured velocity of the axis. Also, this speed corresponds to the small plus and minus button available in jog mode page.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_home_parameter">Home Parameter</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/homeparameter.png" alt="HomeParameter">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_offset">Offset</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">-10000 to 10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">518.17</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_16">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the reference offset position of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_16">Description</h4>
+<div class="paragraph">
+<p>With respect to this value, the axis position is displayed on the screen after the completion of reference cycle.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_direction">Direction</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">UP / DOWN</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">UP</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_17">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the direction of motion of axis during homing process.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_17">Description</h4>
+<div class="paragraph">
+<p>Generally, the homing will take place in the safe direction of the axis and in some cases,  it may depend upon the location of the reference switch. The selection of direction 'UP', will move the axis in positive direction and that of 'DOWN' will move the axis in negative direction during homing process.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reference_search_speed">Reference search speed</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">50</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_18">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the speed of the axis during homing process.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_18">Description</h4>
+<div class="paragraph">
+<p>This parameter is defined in terms of percentage with respect to the maximum velocity of the axis. During homing process, the axis is moved with this speed in search of the reference cam.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reference_switch">Reference switch</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">RSD / EOT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">RSD</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_19">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the type of reference switch used for the axis homing.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_19">Description</h4>
+<div class="paragraph">
+<p>The control supports 2 types of reference switch namely RSD (Reference Search Direction) and EOT (End Of Travel). When the homing command is activated, depending on the direction parameter, the axis starts to move towards the reference switch at a speed of reference velocity. After hitting the reference switch, the direction of axis movement is reversed and searches for the first reference pulse of the encoder and the homing process is completed.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If EOT is selected and the axis is not homed, then the first hitting of the switch will not create any error message instead the direction of the axis changed.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_count_direction">Count direction</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up/Down</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Up</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_20">Function</h4>
+<div class="paragraph">
+<p>This parameter defines encoder pulse counting direction.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_20">Description</h4>
+<div class="paragraph">
+<p>This parameter is used when the encoder pulse counting direction needs to be reversed.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_sequence">Sequence</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1-15</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">varies depending on axis</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_21">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the homing sequence number of the axis.
+==== Description</p>
+</div>
+<div class="paragraph">
+<p>Generally, when the homing command is activated, all the backgauge axis will start to move in the homing direction. If the finger is near to the tools during homing, then the movement of the R - axis will make the finger to collide with tools. In order to avoid this type of collision, the sequence of homing will be very useful.</p>
+</div>
+<div class="paragraph">
+<p>Typically, the X-axis will be homed first with Sequence number as 1 and other R &amp; Z axis will be sequence number 2, to follow the homing process.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_control">Control</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/control.png" alt="Control">
+</div>
+</div>
+<div class="sect2">
+<h3 id="_positioning_tolerance">Positioning tolerance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_22">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the maximum allowable position deviation of X axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_21">Description</h4>
+<div class="paragraph">
+<p>Generally, any axis will have certain position tolerance to set the 'in-position&#8217;output to the controller. It is with this output; the controller will go to next step in the bending cycle after the position of the axis. If the position is not reached within stipulated time, the controller will raise an error message in the screen:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>X-axis - Position deviation exceeded</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_backlash_compensation">Backlash compensation</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0-10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_23">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the reversal compensation of the axis.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_22">Description</h4>
+<div class="paragraph">
+<p>Whenever there is a change in direction of motion, there may be some loss in the physical movement of the axis, which is called as Backlash. In order to avoid this loss, the control supports the backlash compensation. Generally, the “Ball screw &amp; Nut”, “Rack &amp; Pinion” mechanisms will have the backlash error, if properly measured and entered in this parameter will get the accurate positioning of the axis.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The control have the limitation of this value to a maximum of 32767 increments. Still, the parameter accepts the value in 'mm', the controller internally interpolate it to number of increments. For instance, if the axis parameters are as follows:
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Increments - 128000</p>
+</li>
+<li>
+<p>Distance - 10 mm</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The maximum backlash value accepted here is 2.56mm (corresponds to 32767 increments).</p>
+</div>
+<div class="paragraph">
+<p>Backlash compensation is set in order to eliminate backlash error in X axis.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_distance">Distance</h3>
+<table class="tableblock frame-all grid-all fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Range</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">0.001 to 10000</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Default</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Units</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">mm</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Access</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Administrator</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect3">
+<h4 id="_function_24">Function</h4>
+<div class="paragraph">
+<p>This parameter defines the linear distance moved per revolution of axis motor.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_description_23">Description</h4>
+<div class="paragraph">
+<p>Generally, the rotation motion of axis motors are converted by linear motion using some driving techniques namely ball screw &amp; nut, rack &amp; pinion, etc., The conversion of rotary to linear motion displacement is entered this parameter in terms of millimetre (mm).</p>
+</div>
+<div class="paragraph">
+<p>When an axis is driven by ball screw &amp; nut mechanism, the pitch of the ball screw determines the linear displacement of the axis. For instance, when a 12mm pitch ball screw is used, then one rotation of motor will result in 12mm linear displacement and this value corresponds to 12.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+                    </article>
+                </div>
+                <div id="site-toc-holder">
+                    <aside id="site-toc">
+  <h3>Contents</h3>
+  <ul>
+    <li level="1">
+      <a href="#_general">General</a>
+    </li>
+    <li level="2">
+      <a href="#_communication">Communication</a>
+    </li>
+    <li level="2">
+      <a href="#_node">Node</a>
+    </li>
+    <li level="2">
+      <a href="#_hardware_limit_enabled">Hardware limit enabled</a>
+    </li>
+    <li level="2">
+      <a href="#_park_position">Park position</a>
+    </li>
+    <li level="1">
+      <a href="#_limit">Limit</a>
+    </li>
+    <li level="2">
+      <a href="#_maximum">Maximum</a>
+    </li>
+    <li level="1">
+      <a href="#_speed_and_acceleration">Speed and acceleration</a>
+    </li>
+    <li level="2">
+      <a href="#_velocity">Velocity</a>
+    </li>
+    <li level="2">
+      <a href="#_acceleration_0_to_max_speed">Acceleration 0 to max speed</a>
+    </li>
+    <li level="2">
+      <a href="#_deceleration_max_speed_to_0">Deceleration max speed to 0</a>
+    </li>
+    <li level="2">
+      <a href="#_quick_stop_deceleration_time">Quick stop deceleration time</a>
+    </li>
+    <li level="2">
+      <a href="#_ramp_time">Ramp time</a>
+    </li>
+    <li level="2">
+      <a href="#_increments">Increments</a>
+    </li>
+    <li level="2">
+      <a href="#_forward_speed">Forward speed</a>
+    </li>
+    <li level="2">
+      <a href="#_forward_speed_2">Forward speed</a>
+    </li>
+    <li level="2">
+      <a href="#_jog_speed_maximum">Jog speed maximum</a>
+    </li>
+    <li level="2">
+      <a href="#_jog_speed_minimum">Jog speed minimum</a>
+    </li>
+    <li level="1">
+      <a href="#_home_parameter">Home Parameter</a>
+    </li>
+    <li level="2">
+      <a href="#_offset">Offset</a>
+    </li>
+    <li level="2">
+      <a href="#_direction">Direction</a>
+    </li>
+    <li level="2">
+      <a href="#_reference_search_speed">Reference search speed</a>
+    </li>
+    <li level="2">
+      <a href="#_reference_switch">Reference switch</a>
+    </li>
+    <li level="2">
+      <a href="#_count_direction">Count direction</a>
+    </li>
+    <li level="2">
+      <a href="#_sequence">Sequence</a>
+    </li>
+    <li level="1">
+      <a href="#_control">Control</a>
+    </li>
+    <li level="2">
+      <a href="#_positioning_tolerance">Positioning tolerance</a>
+    </li>
+    <li level="2">
+      <a href="#_backlash_compensation">Backlash compensation</a>
+    </li>
+    <li level="2">
+      <a href="#_distance">Distance</a>
+    </li>
+  </ul>
+</aside>
+
+                </div>
+            </div>
+            <nav class="pagination">
+  <span class="prev"><a href="handwheel.html">Hand Wheel</a></span>
+  <span class="next"><a href="../defaults/index.html">Defaults</a></span>
+</nav>
+
+        </div>
+        <div id="searchbox">
+          <input id="searchinput" type="search" placeholder="Search... (Key: F)" autocomplete="false" size="30" />
+          <ul id="results"></ul>
+        </div>
+    </div>
+    <footer id="site-footer">
+        <div class="left">
+            <p>&nbsp;&nbsp;Copyright &copy; 2025 by Jiangsu Jinfangyuan CNC Machine Co.. All rights reserved.</p>
+        </div>
+        <div class="middle"></div>
+        <div class="right">
+            <p>Compiled by Bento</p>
+            <img src="../../../res/bento.png" />
+        </div>
+    </footer>
+    <script>
+        // The baseLevel is used to assign the search result pages.
+        var baseLevel = "../../../res".replace("res", "");
+    </script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="../../../res/index.js"></script>
+    <script src="../../../res/files.js"></script>
+    <script src="../../../res/site.js"></script>
+
+    
+</body>
+</html>
